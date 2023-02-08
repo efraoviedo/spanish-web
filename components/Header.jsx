@@ -18,8 +18,10 @@ const Header = () => {
         <div className="md:float-left block">
           <Link href="/">
             <span className="cursor-pointer font-bold text-4xl text-white">
-              IT Web Pages
-            </span>
+              Norefront Webs
+            </span><br />
+            <span className="block font-mono whitespace-nowrap
+            border-right-4 w-12 animate-pulse overflow-visible">Aplicaciones Paginas y Sitios Web</span>
           </Link>
         </div>
         <div className="hidden md:float-left md:contents">
