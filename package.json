@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "eslint": "^8.33.0",
     "postcss": "^8.4.20",
     "postcss-nesting": "^10.2.0",
     "postcss-preset-env": "^7.8.3",
