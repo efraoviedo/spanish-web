@@ -34,6 +34,10 @@ const Header = () => {
           ))}
         </div>
       </div>
+      <span className="flex items-center justify-between font-thin text-xs md:text-base
+       text-white pt-4">Atencion Personalizada..  
+        <p>Contacto: Bogota Colombia. Telefono:57 320 2937958</p>
+        </span>
     </div>
   );
 };
