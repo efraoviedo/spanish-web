@@ -5,7 +5,7 @@ import { getPosts } from "../services";
 
 export default function Home({ posts }) {
   return (
-    <div className="container mx-auto px-10 mb-8">
+    <div className="container mx-auto px-4 md:px-2 mb-8">
       {/* <Head> 
       <title>IT Web Pages</title>
      </Head> */}

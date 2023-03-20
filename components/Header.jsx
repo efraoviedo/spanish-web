@@ -21,7 +21,7 @@ const Header = () => {
               Norefront Webs
             </span><br />
             <span className="block font-mono whitespace-nowrap
-            border-right-4 w-12 animate-pulse overflow-visible">Aplicaciones Paginas y Sitios Web</span>
+            border-right-4 w-12 animate-pulse overflow-visible text-white">Diseñamos Aplicaciones Paginas y Sitios Web</span>
           </Link>
         </div>
         <div className="hidden md:float-left md:contents">
