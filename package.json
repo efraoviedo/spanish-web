@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "v18.12.1",
-    "npm": "9.1.2"
+    "node": "v18.13.0",
+    "npm": "8.19.3"
   },
   "engineStrict": true,
   "scripts": {
@@ -22,8 +22,8 @@
     "html-react-parser": "^3.0.4",
     "moment": "^2.29.4",
     "next": "13.0.7",
-    "node": "^18.12.1",
-    "npm": "^9.1.2",
+    "node": "18.13.0",
+    "npm": "8.19.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-multi-carousel": "^2.8.2",
