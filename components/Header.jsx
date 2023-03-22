@@ -28,7 +28,8 @@ const Header = () => {
         <div className="hidden md:float-left md:contents">
           {categories.map((category, index) => (
             <Link key={index} href={`/category/${category.slug}`}>
-              <span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer">
+              <span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer
+               hover:text-black hover:bg-blue-200">
                 {category.name}
               </span>
             </Link>
@@ -36,8 +37,8 @@ const Header = () => {
         </div>
       </div>
       <span className="flex items-center justify-between font-thin text-xs md:text-base
-       text-white pt-4">Atencion Personalizada..  
-        <p>Contacto: Bogota Colombia. Telefono:57 320 2937958</p>
+       text-white pt-4 hover:text-black hover:bg-blue-200">Atencion Personalizada..  
+        <p className="hover:text-black hover:bg-blue-200">Contacto: Bogota Colombia. Telefono:57 320 2937958</p>
         </span>
     </div>
   );
