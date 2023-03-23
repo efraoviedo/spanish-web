@@ -29,7 +29,7 @@ const Header = () => {
           {categories.map((category, index) => (
             <Link key={index} href={`/category/${category.slug}`}>
               <span className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer
-               hover:text-black hover:bg-blue-200">
+               hover:text-black">
                 {category.name}
               </span>
             </Link>
