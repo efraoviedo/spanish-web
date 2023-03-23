@@ -1,10 +1,9 @@
 {
-  "name": "spanish_web",
+  "name": "spanishweb",
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "18.12.1",
-    "npm": "9.1.2"
+    "node": "v19.8.1"
   },
   "engineStrict": true,
   "scripts": {
@@ -16,14 +15,13 @@
   "dependencies": {
     "@next/font": "13.0.7",
     "1.0.1": "^1.0.0",
-    "check-node-version": "^4.2.1",
     "graphql": "^16.6.0",
     "graphql-request": "^5.1.0",
     "html-react-parser": "^3.0.4",
     "moment": "^2.29.4",
-    "next": "13.0.7",
+    "next": "16.8.1",
     "node": "18.12.1",
-    "npm": "9.1.2",
+    "npm": "9.5.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-multi-carousel": "^2.8.2",

@@ -18,7 +18,7 @@ const Header = () => {
         <div className="md:float-left block">
           <Link href="/">
             <span className="cursor-pointer font-bold text-4xl text-white">
-              Norefront Webs
+              Ovioto Webs
             </span><br />
             <span className="cursor-pointer font-mono whitespace-nowrap
             border-right-4 w-12 animate-pulse overflow-visible text-white">Diseñamos Aplicaciones Paginas Web
