@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "v18.15.0"
+    "node": ">=18.15.0"
   },
   "engineStrict": true,
   "scripts": {
@@ -13,8 +13,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "1.0.1": "^1.0.0",
-    "@next/font": "13.0.7",
     "graphql": "^16.6.0",
     "graphql-request": "^5.1.0",
     "html-react-parser": "^3.0.4",
@@ -28,6 +26,13 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-next": "^13.2.4",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "postcss": "^8.4.20",
     "postcss-nesting": "^10.2.0",
     "postcss-preset-env": "^7.8.3",
