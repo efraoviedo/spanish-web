@@ -6,6 +6,7 @@ const Layout = ({ children }) => {
     <>
       <Header />
       {children}
+      console.log(children);
     </>
   );
 };

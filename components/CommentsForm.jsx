@@ -6,22 +6,22 @@ const CommentsForm = ({ slug }) => {
   const [localStorage, setLocalStorage] = useState(null);
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
   const [formData, setFormData] = useState({
-    name: null,
-    email: null,
+    name: '',
+    email: '',
     comment: null,
     storeData: false,
   });
 
   useEffect(() => {
     setLocalStorage(window.localStorage);
-    const initalFormData = {
+    const initialFormData = {
       name: window.localStorage.getItem("name"),
       email: window.localStorage.getItem("email"),
       storeData:
         window.localStorage.getItem("name") ||
         window.localStorage.getItem("email"),
     };
-    setFormData(initalFormData);
+    setFormData(initialFormData);
   }, []);
 
   const onInputChange = (e) => {
@@ -97,7 +97,7 @@ const CommentsForm = ({ slug }) => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4">
         <input
           type="text"
-          value={formData.name}
+          value={formData.name ?? ''}
           onChange={onInputChange}
           className="py-2 px-4 outline-none w-full rounded-lg focus:ring-2 focus:ring-gray-200 bg-gray-100 text-gray-700"
           placeholder="Name"
@@ -105,7 +105,7 @@ const CommentsForm = ({ slug }) => {
         />
         <input
           type="email"
-          value={formData.email}
+          value={formData.email ?? ''}
           onChange={onInputChange}
           className="py-2 px-4 outline-none w-full rounded-lg focus:ring-2 focus:ring-gray-200 bg-gray-100 text-gray-700"
           placeholder="Email"
