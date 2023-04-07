@@ -1,9 +1,9 @@
-import React from "react";
-import Image from "next/image";
-import moment from "moment";
-import Link from "next/link";
+import React from 'react';
+import Image from 'next/image';
+import moment from 'moment';
+import Link from 'next/link';
 
-import { grpahCMSImageLoader } from "../util";
+import { grpahCMSImageLoader } from '../util';
 
 const PostCard = ({ post }) => (
   <div className="hover:bg-gray-700 bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8">
@@ -59,7 +59,7 @@ const PostCard = ({ post }) => (
           />
         </svg>
         <span className="align-middle">
-          {moment(post.createdAt).format("MMM DD, YYYY")}
+          {moment(post.createdAt).format('MMM DD, YYYY')}
         </span>
       </div>
     </div>

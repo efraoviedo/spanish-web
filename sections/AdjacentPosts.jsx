@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
-import { AdjacentPostCard } from "../components";
-import { getAdjacentPosts } from "../services";
+import { AdjacentPostCard } from '../components';
+import { getAdjacentPosts } from '../services';
 
 const AdjacentPosts = ({ createdAt, slug }) => {
   const [adjacentPost, setAdjacentPost] = useState(null);
@@ -22,8 +22,8 @@ const AdjacentPosts = ({ createdAt, slug }) => {
             <div
               className={`${
                 adjacentPost.next
-                  ? "col-span-1 lg:col-span-4"
-                  : "col-span-1 lg:col-span-8"
+                  ? 'col-span-1 lg:col-span-4'
+                  : 'col-span-1 lg:col-span-8'
               } adjacent-post rounded-lg relative h-72`}
             >
               <AdjacentPostCard post={adjacentPost.previous} position="LEFT" />
@@ -33,8 +33,8 @@ const AdjacentPosts = ({ createdAt, slug }) => {
             <div
               className={`${
                 adjacentPost.previous
-                  ? "col-span-1 lg:col-span-4"
-                  : "col-span-1 lg:col-span-8"
+                  ? 'col-span-1 lg:col-span-4'
+                  : 'col-span-1 lg:col-span-8'
               } adjacent-post rounded-lg relative h-72 hover:bg-black`}
             >
               <AdjacentPostCard post={adjacentPost.next} position="RIGHT" />
