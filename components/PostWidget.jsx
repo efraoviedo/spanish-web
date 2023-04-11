@@ -23,13 +23,13 @@ const PostWidget = ({ categories, slug }) => {
 
   return (
     <div className="bg-white shadow-lg rounded-lg p-8 pb-12 mb-8">
-      <h3 className="text-xl mb-8 font-semibold border-b pb-4">
+      <h3 className="hover:bg-slate-100 text-xl mb-8 font-semibold border-b pb-4">
         {slug ? "Posts Recientes" : "Posts Recientes"}
       </h3>
       {relatedPosts.map((post, index) => (
         <div
           key={index}
-          className="hover:bg-gray-500 flex items-center w-full mb-4"
+          className="hover:bg-slate-200 hover:text-cyan-700 flex items-center w-full mb-4"
         >
           <div className="w-16 flex-none">
             <Image
