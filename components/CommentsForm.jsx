@@ -8,8 +8,9 @@ const CommentsForm = ({ slug }) => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    comment: null,
-    storeData: false,
+    comment: null, // estabaa asi por advertencian en consola por comoponente controlado y no controlado
+    comment: "", // lo cambie asi, a cadena ó string
+    // storeData: false,
   });
 
   useEffect(() => {
