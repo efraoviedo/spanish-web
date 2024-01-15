@@ -8,9 +8,9 @@ const CommentsForm = ({ slug }) => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    comment: null, // estabaa asi por advertencian en consola por comoponente controlado y no controlado
+    // comment: null, // estabaa asi por advertencian en consola por comoponente controlado y no controlado
     comment: "", // lo cambie asi, a cadena ó string
-    // storeData: false,
+    storeData: false,
   });
 
   useEffect(() => {
@@ -82,7 +82,7 @@ const CommentsForm = ({ slug }) => {
   };
 
   return (
-    <div className="bg-white shadow-lg rounded-lg p-8 pb-12 mb-8">
+    <div className="bg-pink-100 shadow-lg rounded-lg p-8 pb-12 mb-8">
       <h3 className="text-xl mb-8 font-semibold border-b pb-4">
         Deja un Comentario
       </h3>
