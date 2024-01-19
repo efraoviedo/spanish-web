@@ -25,7 +25,7 @@ const Header = () => {
               className="cursor-pointer font-mono whitespace-nowrap
             border-right-4 w-12 animate-pulse overflow-visible text-white"
             >
-              Diseño De Aplicaciones Paginas Web
+              Diseño De  Paginas Web y Aplicaciones
             </span>
           </Link>
         </div>
