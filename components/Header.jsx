@@ -18,11 +18,11 @@ const Header = () => {
         <div className="md:float-left block">
           <Link href="/">
             <span className="hover:text-cyan-500 cursor-pointer font-bold text-4xl text-white">
-              Ovioto Webs
+             Hacemos su Pagina Web
             </span>
             <br />
             <span
-              className="cursor-pointer font-mono whitespace-nowrap
+              className="text-sm md:text-lg cursor-pointer font-mono whitespace-nowrap
             border-right-4 w-12 animate-pulse overflow-visible text-white"
             >
               Diseño De  Paginas Web y Aplicaciones
@@ -34,7 +34,7 @@ const Header = () => {
             <Link key={index} href={`/category/${category.slug}`}>
               <span
                 className="md:float-right mt-2 align-middle text-white ml-4 font-semibold cursor-pointer
-               hover:text-cyan-500"
+               hover:text-cyan-500 active:bg-violet-700"
               >
                 {category.name}
               </span>
